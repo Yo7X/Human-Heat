@@ -1,0 +1,8 @@
+Capture a screenshot of the display
+ > Detect people
+ > Crop people to new images
+ > Run new images into a body segmentation model
+ > Crop faces
+ > Censor bodies
+ > Segment faces
+ > Censor faces

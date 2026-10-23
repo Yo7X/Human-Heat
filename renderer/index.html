@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: black;
+            color: white;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        img {
+            margin: 2px;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+
+        .imageWithBounds {
+            height: 500px;
+        }
+
+        #bodyImageContainer {
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            flex-wrap: wrap;
+        }
+
+        .containerItem {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+
+        .bodyImage {
+            height: 250px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <p>Image path: <input id="imagePath" type="text" placeholder="..."> <button id="sendImagePath">Submit</button></p>
+    <p id="imageInfo"></p>
+    <br>
+
+    <h1>Body Locations</h1>
+    <div id="bodyBoundingBoxes"></div>
+
+    <br>
+    
+    <h1>Body Heat Maps</h1>
+    <div id="bodyImageContainer"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>

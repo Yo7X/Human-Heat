@@ -1,0 +1,19 @@
+{
+  "name": "censor",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "cs",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^44.7.2",
+    "onnxruntime-node": "^1.30.0",
+    "path": "^0.12.7",
+    "sharp": "^0.35.5"
+  }
+}
